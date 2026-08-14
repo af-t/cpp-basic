@@ -27,7 +27,7 @@ while IFS= read -r src; do
         echo "FAIL: $src"
         failed=$((failed + 1))
     fi
-done < <(find "$ROOT/vector" "$ROOT/misc" -name '*.cpp' | sort)
+done < <(find "$ROOT" \( -path "$OUT" -o -name '.git' \) -prune -o -name '*.cpp' -print | sort)
 
 echo "Compiled $((total - failed))/$total examples into $OUT"
 [ "$failed" -eq 0 ]

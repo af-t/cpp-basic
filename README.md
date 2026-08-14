@@ -5,6 +5,8 @@ This repository contains basic examples of C++ code, demonstrating fundamental c
 ## Project Structure
 
 - `/vector/` : Contains examples related to the usage of vectors in C++.
+- `/map/` : Contains examples related to the usage of maps in C++.
+- `/string/` : Contains examples related to the usage of strings in C++.
 - `/misc/` : Contains standalone programs, currently an interactive mental arithmetic drill.
 - `/scripts/` : Contains helper scripts for working with this repository.
 
