@@ -11,6 +11,7 @@ int main() {
     for (const int& num : numbers) {
         std::cout << num << " ";  // Output: 1 2 3 0 0
     }
+    std::cout << std::endl;
 
     return 0;
 }

@@ -1,5 +1,7 @@
 #include <iostream>
 #include <vector>
+#include <string>
+#include <utility>  // Untuk std::move
 
 /**
  * More Efficient than `push_back'
@@ -12,7 +14,8 @@ struct Person {
     std::string name;
     int age;
 
-    Person(std::string n, int a) : name(n), age(a) {}
+    // Parameter diambil by value lalu dipindahkan, jadi tidak ada salinan tambahan
+    Person(std::string n, int a) : name(std::move(n)), age(a) {}
 };
 
 int main() {

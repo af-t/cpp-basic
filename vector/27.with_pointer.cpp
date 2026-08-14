@@ -1,11 +1,13 @@
 #include <iostream>
 #include <vector>
+#include <string>
+#include <utility>  // Untuk std::move
 
 struct Person {
     std::string name;
     int age;
 
-    Person(std::string n, int a) : name(n), age(a) {}
+    Person(std::string n, int a) : name(std::move(n)), age(a) {}
 };
 
 int main() {

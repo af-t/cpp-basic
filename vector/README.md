@@ -19,12 +19,12 @@ This repository contains a variety of examples and implementations using `std::v
 13. **[vector_x_struct.cpp](12.vector_x_struct.cpp)**: Using `std::vector` with structures.
 14. **[iteration.cpp](13.iteration.cpp)**: Iterating through elements of a vector.
 15. **[reverse_iteration.cpp](14.reverse_iteration.cpp)**: Iterating through elements in reverse order.
-16. **[capacity_and_reverse_memory.cpp](15.capacity_and_reverse_memory.cpp)**: Managing memory with `capacity()` and other memory operations.
-17. **[manipulate_with_lamda.cpp](16.manipulate_with_lamda.cpp)**: Manipulating vector elements with lambda expressions.
+16. **[capacity_and_reserve_memory.cpp](15.capacity_and_reserve_memory.cpp)**: Managing memory with `capacity()` and other memory operations.
+17. **[manipulate_with_lambda.cpp](16.manipulate_with_lambda.cpp)**: Manipulating vector elements with lambda expressions.
 18. **[fill_element.cpp](17.fill_element.cpp)**: Filling a vector with specific elements.
-19. **[concat_wth_copy.cpp](18.concat_wth_copy.cpp)**: Concatenating vectors using `std::copy`.
+19. **[concat_with_copy.cpp](18.concat_with_copy.cpp)**: Concatenating vectors using `std::copy`.
 20. **[count_if.cpp](19.count_if.cpp)**: Counting elements that match a condition using `std::count_if`.
-21. **[search_unique_element.cpp](20.search_unique_element.cpp)**: Searching for unique elements in a vector.
+21. **[search_unique_element.cpp](20.search_unique_element.cpp)**: Finding the values that occur exactly once.
 22. **[use_accumulate.cpp](21.use_accumulate.cpp)**: Using `std::accumulate` to sum elements.
 23. **[transform_implementation.cpp](22.transform_implementation.cpp)**: Transforming elements using `std::transform`.
 24. **[emplace_back.cpp](23.emplace_back.cpp)**: Constructing elements directly in a vector using `emplace_back`.
@@ -37,6 +37,11 @@ This repository contains a variety of examples and implementations using `std::v
 31. **[tuple.cpp](30.tuple.cpp)**: Using `std::tuple` with `std::vector`.
 32. **[move_element.cpp](31.move_element.cpp)**: Moving elements with `std::move`.
 33. **[unique_ptr.cpp](32.unique_ptr.cpp)**: Using `std::unique_ptr` in `std::vector`.
+34. **[at_and_bounds.cpp](33.at_and_bounds.cpp)**: Bounds-checked access with `at()` versus `operator[]`.
+35. **[sort_with_comparator.cpp](34.sort_with_comparator.cpp)**: Sorting with a custom comparator and `std::stable_sort`.
+36. **[binary_search.cpp](35.binary_search.cpp)**: Searching a sorted vector with `std::binary_search` and `std::lower_bound`.
+37. **[min_max_element.cpp](36.min_max_element.cpp)**: Finding extremes with `std::min_element`, `std::max_element` and `std::minmax_element`.
+38. **[iterator_invalidation.cpp](37.iterator_invalidation.cpp)**: When iterators become invalid, and how to erase safely while iterating.
 
 Each file contains a specific implementation or concept, feel free to explore them to understand how vectors work in C++!
 

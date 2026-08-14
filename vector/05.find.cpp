@@ -7,7 +7,10 @@ int main() {
 
     int search;
     std::cout << "Number to search: ";
-    std::cin >> search;
+    if (!(std::cin >> search)) {
+        std::cout << "Invalid input" << std::endl;
+        return 1;
+    }
 
     // Mencari elemen
     auto it = std::find(numbers.begin(), numbers.end(), search);

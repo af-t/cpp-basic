@@ -18,6 +18,7 @@ int main() {
     for (int num : result) {
         std::cout << num << " ";
     }
+    std::cout << std::endl;
 
     return 0;
 }

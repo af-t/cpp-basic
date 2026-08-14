@@ -12,6 +12,7 @@ int main() {
     for (const int& num : numbers) {
         std::cout << num << " ";  // Output: 4 5 6 7
     }
+    std::cout << std::endl;
 
     return 0;
 }

@@ -12,6 +12,7 @@ int main() {
     for (int num : numbers) {
         std::cout << num << " ";
     }
+    std::cout << std::endl;
 
     return 0;
 }
